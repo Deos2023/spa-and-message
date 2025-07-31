@@ -89,7 +89,7 @@ export default function Navbar() {
 
             {/* Mobile: Contact/Call Button */}
             <a
-              href="tel:+1234567890"
+              href="tel:+91 9123071634"
               className="lg:hidden bg-[#27A4A1] text-white px-4 py-2 rounded-full text-sm font-semibold shadow-md"
             >
               Call Now
