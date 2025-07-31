@@ -26,7 +26,7 @@ export default function HomePage() {
   ];
 
   const spaServices = [
-  { name: "Hair Services", image: "/img/hairservices.jpg" },
+  { name: "Hair Services", image: "/img/hairServices.jpg" },
   { name: "Hair Treatments", image: "/img/hairtreatment.jpg" },
   { name: "Spa", image: "/img/spa.jpg" },
   { name: "Hair spa", image: "/img/hairspa.jpg" },
