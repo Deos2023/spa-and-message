@@ -26,19 +26,20 @@ export default function HomePage() {
   ];
 
   const spaServices = [
-  { name: "Hair Services", image: "/spa/hair-services.png" },
-  { name: "Hair Treatments", image: "/spa/hair-treatments.png" },
-  { name: "Hair Colouring", image: "/spa/hair-colouring.png" },
-  { name: "Hair Extensions", image: "/spa/hair-extensions.png" },
-  { name: "Cosmetic Services", image: "/spa/cosmetic.png" },
-  { name: "Mani Services", image: "/spa/mani.png" },
-  { name: "Make-up", image: "/spa/makeup.png" },
-  { name: "Wedding Events", image: "/spa/wedding.png" },
-  { name: "Spa & Massage", image: "/spa/massage.png" },
+  { name: "Hair Services", image: "/img/hairservices.jpg" },
+  { name: "Hair Treatments", image: "/img/hairtreatment.jpg" },
+  { name: "Spa", image: "/img/spa.jpg" },
+  { name: "Hair spa", image: "/img/hairspa.jpg" },
+  { name: "Body spa", image: "/img/fullbody.jpg" },
+  { name: "Mani Services", image: "/img/naiol.jpg" },
+  { name: "Make-up", image: "/img/makeup.jpg" },
+  { name: "Wedding Events", image: "/img/wedding.jpg" },
+  { name: "Spa & Massage", image: "/img/massage.jpg" },
 ];
 
   return (
-    <div className="bg-white">
+    <div className='bg-white'>
+      <div className="bg-white max-w-5xl mx-auto">
       {/* Hero Section (from previous) */}
       <HeroSection />
       {/* About Us Section */}
@@ -271,5 +272,6 @@ export default function HomePage() {
       </div>
     </section>
     </div>
+      </div>
   );
 }

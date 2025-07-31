@@ -18,6 +18,7 @@ export default function ContactPage() {
 
   return (
     <div className="bg-white">
+      <div className="bg-white max-w-5xl mx-auto">
       {/* Hero Section */}
       <section className="relative py-20 bg-[#f8f3ed]">
         <div className="container mx-auto px-4 text-center">
@@ -136,6 +137,7 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+    </div>
     </div>
   );
 }

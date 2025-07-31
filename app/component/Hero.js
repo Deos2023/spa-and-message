@@ -9,10 +9,10 @@ export default function HeroSection() {
       </div>
 
       {/* Main content container */}
-      <div className="container mx-auto sm:-mt-16 px-4 flex flex-col lg:flex-row items-center justify-center gap-12 z-10">
+      <div className="container  mx-auto -mt-20 px-4 flex flex-col lg:flex-row items-center justify-center gap-12 z-10">
         {/* Image - will stack above text on mobile */}
         <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
-          <div className="relative w-full max-w-md">
+          <div className="relative w-2/3 sm:w-3/5 md:w-full max-w-sm">
             <img 
               src="/lady.png" 
               alt="Relaxing spa environment" 
@@ -22,7 +22,7 @@ export default function HeroSection() {
         </div>
 
         {/* Text content - centered both horizontally and vertically */}
-        <div className="w-full lg:w-1/2  flex flex-col items-center lg:items-start text-center lg:text-left space-y-1">
+        <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start text-center lg:text-left space-y-1">
           <div className="w-16 h-16 relative">
             <img 
               src="/flower.png" 
@@ -33,7 +33,7 @@ export default function HeroSection() {
           
           <h1 
             style={{ fontFamily: 'var(--font-sacramento)' }} 
-            className="text-5xl md:text-7xl lg:text-8xl font-bold text-[#5E3B1F] leading-tight"
+            className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#5E3B1F] leading-tight"
           >
             Beauty Spa <br /> With Massage
           </h1>
