@@ -2,6 +2,7 @@ import { Geist, Geist_Mono, Sacramento } from "next/font/google";
 import "./globals.css";
 import Navbar from "./component/Navbar";
 import Footer from "./component/Footer";
+import FloatingButtons from "./component/Floating";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,10 +29,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`bg-white ${geistSans.variable} ${geistMono.variable} ${sacramento.variable} antialiased `}
+        className={` ${geistSans.variable} ${geistMono.variable} ${sacramento.variable} antialiased `}
       >
         <Navbar />
         {children}
+        <FloatingButtons/>
         <Footer />
       </body>
     </html>

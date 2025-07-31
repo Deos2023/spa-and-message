@@ -42,7 +42,7 @@ export default function ContactPage() {
             {/* Contact Form */}
             <div>
               <h2 className="text-3xl font-bold text-[#5E3B1F] mb-6">Send Us a Message</h2>
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6 text-black">
                 <div>
                   <input 
                     type="text" 
