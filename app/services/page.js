@@ -85,28 +85,28 @@ export default function ServicesPage() {
   const hairServices = [
     {
       name: "Hair Cut & Styling",
-      title: "Hair Cut & Styling",
+      title: "hairServices",
       price: "₹499-₹1499",
       duration: "45-90 mins",
       description: "Professional haircut and styling for all hair types",
     },
     {
       name: "Hair Coloring",
-      title: "Hair Coloring",
+      title: "hairtreatment",
       price: "₹1499-₹3999",
       duration: "90-180 mins",
       description: "Expert coloring with premium products",
     },
     {
       name: "Hair Spa",
-      title: "Hair Spa",
+      title: "hairspa",
       price: "₹1299",
       duration: "60 mins",
       description: "Deep conditioning treatment for damaged hair",
     },
     {
       name: "Bridal Hair & Makeup",
-      title: "Bridal Hair & Makeup",
+      title: "makeup",
       price: "₹4999+",
       duration: "120+ mins",
       description: "Complete bridal look with trials available",
@@ -114,7 +114,7 @@ export default function ServicesPage() {
   ];
 
   return (
-    <div className="bg-white">
+    <div className="bg-white text-black">
       <div className="bg-white max-w-5xl mx-auto">
         {/* Hero Section */}
         <section className="relative py-20 bg-white">

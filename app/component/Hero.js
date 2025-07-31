@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -42,9 +43,9 @@ export default function HeroSection() {
             Indulge in luxury treatments with our premium services
           </p>
           
-          <button className="mt-6 px-8 py-4 bg-[#A06718] hover:bg-[#8a5a15] text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg">
+          <Link  href="/contact" className="mt-6 px-8 py-4 bg-[#A06718] hover:bg-[#8a5a15] text-white font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg">
             MAKE AN APPOINTMENT
-          </button>
+          </Link>
         </div>
       </div>
     </section>
